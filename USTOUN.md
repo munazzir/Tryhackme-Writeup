@@ -147,7 +147,7 @@ using above command upload it then execute it with this command give to root acc
 
 `PrintSpoofer.exe -i -c cmd`
 
-![root-flag](/Images/rootflag.png)
+![root-flag](/Images/ustoun/rootflag.png)
 
 # Flags
 
