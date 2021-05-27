@@ -35,7 +35,7 @@ In 2013, MITRE began to address the need to record and document common TTPs (Tac
 
 ATT&CK® Framework first solely focus on Windows but in overthetime its expanded to cover other platforms, such as macOS and Linux. The framework is heavily contributed to by many sources, such as security researchers and threat intelligence reports. Note this is not only a tool for blue teamers. The tool is also useful for a penetration tester and/or red teamer.
 
-If you haven't done so, navigate to the [ATT&CK®.](https://attack.mitre.org/)
+If you haven't done so, navigate to the [ATT&CK®.](https://attack.mitre.org/groups/)
 
 Lastly, the same data can be viewed via the **MITRE ATT&CK® Navigator**: "The ATT&CK® Navigator is designed to provide basic navigation and annotation of ATT&CK® matrices, something that people are already doing today in tools like Excel. So they've  designed it to be simple and generic - you can use the Navigator to visualize your defensive coverage, your red/blue team planning, the frequency of detected techniques, or anything else you want to do."
 
