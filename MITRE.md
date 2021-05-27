@@ -15,7 +15,7 @@ we will focus on other projects/research that the US-based non-profit MITRE Corp
 This can be considered a team/group **(threat group)** , or even country **(nation-state group)**, that engages in long-term attacks against organizations and/or countries.
 The term 'advanced' can be misleading as it will tend to cause us to believe that each APT group all have some super-weapon, e.i. a zero-day exploit, that they use. That is not the case. As we will see a bit later, the techniques these APT groups use are quite common and can be detected with the right implementations in place.
 
-Ex: [FireEye's current list of APT groups.](https://www.fireeye.com/current-threats/apt-groups.html){:target="_blank"}
+Ex: [FireEye's current list of APT groups.](https://www.fireeye.com/current-threats/apt-groups.html)
 
 
 TTP is an acronym for Tactics, Techniques, and Procedures, but what does each of these terms mean?
