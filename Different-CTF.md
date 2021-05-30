@@ -78,7 +78,9 @@ Switched to user `hakanbey` lets find method escalate privilege
 
 # Root Flag
 
-`find / -user root -perm /4000 2>/dev/null`
+```bash
+find / -user root -perm /4000 2>/dev/null
+```
 
 ![Escalation](/Images/different_ctf/escalation.png)
 
