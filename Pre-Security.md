@@ -14,6 +14,8 @@ Learning path is easy to learn because of in-build **Practical** sessions and it
 
 ![](/Images/pre-security/pre2.png)
 
+<br>
+<br>
 
 ### Some Reviews from Others
 
@@ -24,7 +26,6 @@ Learning path is easy to learn because of in-build **Practical** sessions and it
 
 
 ![](/Images/pre-security/pre5.png)
-
 
 ### Important 
 
